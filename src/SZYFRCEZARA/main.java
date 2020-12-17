@@ -38,7 +38,7 @@ public class main {
                 }
 //inaczej dodaj 3
                 else {
-                    String.valueOf(szyfr[i] += 3);
+                   szyfr[i] += 3;
                 }
             }
         }
