@@ -7,7 +7,7 @@ public class main {
         char[] szyfr=text.toCharArray();
 
         //pentlla ktora sprawdza po kolei kazdy element
-        for (int i = 0; i > text.length() ; i++){
+        for (int i = 0; i < text.length() ; i++){
 
         //to jest to co wyznacza argument duze i male
             if((szyfr[i] >= 65 && szyfr[i] <= 90) || (szyfr[i] >= 97 && szyfr[i] <= 122)){
