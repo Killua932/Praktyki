@@ -54,6 +54,8 @@ public class main {
         String text = "AaBbCcDd, XxYyZz, !.?<>";
         //wyswietlanie tekstu
         System.out.println(text);
+        String szyfr = code(text);
+        System.out.println(szyfr);
 
     }
 }
